@@ -1,3 +1,5 @@
+''''javascript'
+
 // ==========================================
 // PROJETO PRÁTICO: BANCO DE DADOS DE LIVRARIA
 // ==========================================
@@ -71,3 +73,5 @@ db.users.deleteOne({ "email": "carlos@email.com" })
 
 // Remover todos os livros que estão com o estoque zerado
 db.books.deleteMany({ "estoque": 0 })
+
+''''javascript'
