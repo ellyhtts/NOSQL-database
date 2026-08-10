@@ -1,6 +1,6 @@
 # Prática e Exercícios CRUD - MongoDB
 
-Os comandos essenciais do shell exercícios práticos baseados nas operações fundamentais de banco de dados: CRUD (Create, Read, Update, Delete).
+Os comandos essenciais do shell e exercícios práticos baseados nas operações fundamentais de banco de dados: CRUD (Create, Read, Update, Delete).
 
 ## Comandos Principais
 Para manipular o banco de dados via terminal, utilizamos os seguintes comandos básicos:
