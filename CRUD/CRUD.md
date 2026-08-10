@@ -15,13 +15,13 @@ Para manipular o banco de dados via terminal, utilizamos os seguintes comandos b
 
 ## Exercícios Práticos (Operações CRUD)
 
-As operações a seguir devem ser testadas no shell do MongoDB para consolidar a manipulação de dados[cite: 2].
+As operações a seguir devem ser testadas no shell do MongoDB para consolidar a manipulação de dados.
 
 ### 1. Create (Criação)
 A operação de criação permite inserir novos documentos em uma coleção, mesmo que ela tenha sido criada implicitamente.
 * **Comando de Referência:** `insertOne(data, options)`.
 * **Exercício:** Insira um novo registro executando o seguinte comando:
-  `db.users.insertOne({ "name": "Jefté", "age": 35, "isTeacher": true })`.
+  `db.users.insertOne({ "name": "Ellen", "age": 20, "isStudent": true })`.
 
 ### 2. Read (Leitura)
 A operação de leitura permite buscar e visualizar os documentos armazenados no banco.
