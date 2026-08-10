@@ -1,8 +1,6 @@
-''''javascript'
+```javascript
 
-// ==========================================
 // PROJETO PRÁTICO: BANCO DE DADOS DE LIVRARIA
-// ==========================================
 
 // 1. Acessar ou criar o banco de dados da livraria
 
@@ -35,9 +33,8 @@ db.users.insertMany([
     }
 ])
 
-// ------------------------------------------
+
 // READ (Leitura e Consultas)
-// ------------------------------------------
 
 // Buscar todos os livros cadastrados
 db.books.find()
@@ -48,9 +45,8 @@ db.users.find({ "interesses": "Python" })
 // Buscar um livro específico pelo título
 db.books.findOne({ "titulo": "Estruturas de Dados e Algoritmos" })
 
-// ------------------------------------------
+
 // UPDATE (Atualização de Dados)
-// ------------------------------------------
 
 // Atualizar o preço e o estoque de um livro específico utilizando o operador $set
 db.books.updateOne(
@@ -64,9 +60,8 @@ db.users.updateOne(
     { $set: { "ativo": true } }
 )
 
-// ------------------------------------------
+
 // DELETE (Exclusão de Registros)
-// ------------------------------------------
 
 // Remover um usuário específico pelo e-mail
 db.users.deleteOne({ "email": "carlos@email.com" })
@@ -74,4 +69,4 @@ db.users.deleteOne({ "email": "carlos@email.com" })
 // Remover todos os livros que estão com o estoque zerado
 db.books.deleteMany({ "estoque": 0 })
 
-''''javascript'
+```
